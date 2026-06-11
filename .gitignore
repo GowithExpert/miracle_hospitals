@@ -1,0 +1,10 @@
+/writable/cache/*
+/writable/debugbar/*
+/writable/logs/*
+/writable/session/*
+/app/Config/Database.php
+/.env
+/app/Config/App.php
+/.htaccess
+/public/uploads/*
+/public/public/error_log

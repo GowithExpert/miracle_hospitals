@@ -1,0 +1,43 @@
+Date: September :
+@Raj: =================>
+
+
+Date: September 9th, 2025:
+@Raj: =================>
+1. DB Query:
+ALTER TABLE `patients_login` ADD `unique_id_name` VARCHAR(255) NOT NULL COMMENT 'Aadhar card, PAN card etc' AFTER `gender`, ADD `unique_id` VARCHAR(255) NOT NULL COMMENT 'Aadhar card, SSN etc' AFTER `unique_id_name`;
+
+2.1 Views/Patients/view_profile.php: Added
+
+	<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+            <label for="UniqueIDType">Unique ID Name</label>
+            <input type="text" class="input form-control pinError zIp input_box" maxlength="120" name="unique_id_name" id="unique_id_name"value="<?=$profile_record->unique_id_name?>" placeholder="Enter Unique ID name(aadhar card, SSN etc)">
+        </div>
+        <span id="uniqueError" class="col_red"></span>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+            <label for="UniqueID">Unique ID</label>
+            <input type="text" class="input form-control pinError zIp input_box" maxlength="120" name="unique_id" id="unique_id"value="<?=$profile_record->unique_id?>" placeholder="Enter Unique ID (aadhar card, SSN etc)">
+        </div>
+        <span id="uniqueError" class="col_red"></span>
+    </div>
+
+
+2.2
+var unique_id_name = $("#unique_id_name").val();
+var unique_id = $("#unique_id").val();	
+
+
+2.3
+unique_id_name: unique_id_name,
+unique_id:unique_id,
+
+2.4
+'unique_id_name'=>  $this->request->getPost('unique_id_name', FILTER_SANITIZE_STRING),
+'unique_id'     =>  $this->request->getPost('unique_id', FILTER_SANITIZE_STRING),
+
+2.5 Routes.php
+$routes->post('update_profile', 'Patients::update_profile');
+$routes->post('/Doctor_login/create_doc_account', 'Doctor_login::create_doc_account');
