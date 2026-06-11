@@ -1,3 +1,47 @@
+## Main Screens:
+
+
+![Patient Section: Home Page](screens/1-home.png)
+
+## Patient Section: Footer Page
+
+![Patient Section: Footer Page](screens/2-home-footer.png)
+
+## Patient Section: All Dcotors
+
+![Patient Section: All Dcotors](screens/3-all-doctors.png)
+
+
+## Staff Home Page
+![Staff Home Page](screens/4-staff-home.png)
+
+
+![Patient Feedback Page](screens/5-patient-feedback.png)
+
+
+
+![Doctor Login Page](screens/6-doctor-login.png)
+
+![Doctor Dashboard](screens/7-dr.dashboard.png)
+
+![Doctor Patient Page](screens/8-dr.patients.png)
+
+
+
+![Admin Login Page](screens/9-admin-login.png)
+
+![Admin Dashboard](screens/10-admin-dashboard.png)
+
+![Admin Assets Manage Options](screens/11-admin-assets.png)
+
+![Admin Medical Options](screens/12-admin-medical.png)
+
+![Admin Appointment Options](screens/13-admin-appointments.png)
+
+![Admin Accounts Options](screens/14-admin-accounts.png)
+
+
+
 Project Deployent Steps: 
 ========================
 1. cd /var/www/html
@@ -132,49 +176,3 @@ II. .htaccess Settings
     To
     Options -Indexes
     
-8. Main Screens:
-================
-
-
-## Patient Section: Home Page
-
-![Patient Section: Home Page](screens/1-home.png)
-
-## Patient Section: Footer Page
-
-![Patient Section: Footer Page](screens/2-home-footer.png)
-
-## Patient Section: All Dcotors
-
-![Patient Section: All Dcotors](screens/3-all-doctors.png)
-
-## Staff Section:
-
-## Staff Home Page
-![Staff Home Page](screens/4-staff-home.png)
-
-## Patient Feedback Page
-![Patient Feedback Page](screens/5-patient-feedback.png)
-
-## Dr. Section:
-
-![Dr. Login Page](screens/6-doctor-login.png)
-
-![Dr. Dashboard](screens/7-dr.dashboard.png)
-
-![Dr. Patient Page](screens/8-dr.patients.png)
-
-
-## Admin Section:
-
-![Admin Login Page](screens/9-admin-login.png)
-
-![Admin Dashboard](screens/10-admin-dashboard.png)
-
-![Admin: Assets Manage Options](screens/11-admin-assets.png)
-
-![Admin: Medical Options](screens/12-admin-medical.png)
-
-![Admin: Appointment Options](screens/13-admin-appointments.png)
-
-![Admin: Accounts Options](screens/14-admin-accounts.png)
