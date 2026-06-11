@@ -1,4 +1,4 @@
-## Note*: This is sample code only contact at gowithexpert@gmail.com for original code
+## Note*: This is sample code only. Please contact at gowithexpert@gmail.com for original code
 
 
 ## Main Screens:
