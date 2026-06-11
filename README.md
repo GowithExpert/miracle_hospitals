@@ -16,14 +16,17 @@
 ![Staff Home Page](screens/4-staff-home.png)
 
 
+## Patient Feedback Page
 ![Patient Feedback Page](screens/5-patient-feedback.png)
 
-
-
+## Doctor Login Page
 ![Doctor Login Page](screens/6-doctor-login.png)
 
+## Doctor Dashboard
 ![Doctor Dashboard](screens/7-dr.dashboard.png)
 
+
+## Doctor Patient Page
 ![Doctor Patient Page](screens/8-dr.patients.png)
 
 
